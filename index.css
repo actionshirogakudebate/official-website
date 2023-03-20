@@ -1,0 +1,137 @@
+/* 全体のスタイル */
+body {
+	background-color: #F2E2CE;
+	color: #333333;
+	font-size: 16px;
+	font-family: "Hiragino Mincho ProN", "MS Mincho", serif;
+}
+
+/* ヘッダー */
+header {
+	background-color: #5B5B5B;
+	color: #FFFFFF;
+	padding: 20px 0;
+}
+
+.header-logo {
+	text-align: center;
+}
+
+.header-logo h1 {
+	font-size: 60px;
+	font-weight: bold;
+	margin: 0;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #333333;
+}
+
+.header-logo p {
+	font-size: 24px;
+	margin: 0;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #333333;
+}
+
+.header-nav {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.header-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header-nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.header-nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: #000000;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s;
+}
+
+.header-nav a:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+/* メイン */
+main {
+	margin: 40px auto;
+	max-width: 960px;
+}
+
+section {
+	margin-bottom: 40px;
+	padding: 20px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	background-color: #FFFFFF;
+}
+
+section h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0 0 20px;
+	color: #5B5B5B;
+}
+
+section p {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #5B5B5B;
+}
+
+section.video {
+	position: relative;
+	padding-top: 56.25%;
+}
+
+section.video video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* フッター */
+footer {
+	background-color: #5B5B5B;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 40px;
+}
+
+footer p {
+	font-size: 20px;
+	margin: 0;
+	color: #FFFFFF;
+}
+
+
+a.btn-radius-solid {
+    border: 1px solid #ccc;
+    background: #f1e767;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fdfbfb), to(#ebedee));
+    background: -webkit-linear-gradient(top, #fdfbfb 0%, #ebedee 100%);
+    background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%);
+    -webkit-box-shadow: inset 1px 1px 1px #fff;
+    box-shadow: inset 1px 1px 1px #fff;
+  }
+  
+  a.btn-radius-solid:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#ebedee));
+    background: -webkit-linear-gradient(bottom, #fdfbfb 0%, #ebedee 100%);
+    background: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
+  }
